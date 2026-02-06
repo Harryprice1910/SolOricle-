@@ -1,0 +1,6 @@
+@SolOricle_HostAddress = http://localhost:5024
+
+GET {{SolOricle_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
