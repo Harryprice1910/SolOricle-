@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Soloricle App")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0+47d35ecd6327a6a7672e70aecdd7cb07425bdf28")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0+3202ae0c6c307486b22203a897867b367f778fc5")]
 [assembly: System.Reflection.AssemblyProductAttribute("Soloricle App")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Soloricle App")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

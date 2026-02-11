@@ -1,1 +1,1 @@
-C:\Users\harry\Source\Repos\SolOricle-\Soloricle.App\Soloricle App\Soloricle App.csproj;x64
+C:\Users\harry\Source\Repos\SolOricle-\Soloricle.App\Soloricle App\Soloricle.App.csproj;x64

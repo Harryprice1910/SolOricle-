@@ -1,9 +1,9 @@
-Soloricle_App.MainActivity, Soloricle App;crc64d58aba90d7c33cec.MainActivity
-Soloricle_App.MainActivity;crc64d58aba90d7c33cec.MainActivity
-soloricle_app.MainActivity;crc64d58aba90d7c33cec.MainActivity
-Soloricle_App.MainApplication, Soloricle App;crc64d58aba90d7c33cec.MainApplication
-Soloricle_App.MainApplication;crc64d58aba90d7c33cec.MainApplication
-soloricle_app.MainApplication;crc64d58aba90d7c33cec.MainApplication
+Soloricle_App.MainActivity, Soloricle.App;crc64e02080513a02ff71.MainActivity
+Soloricle_App.MainActivity;crc64e02080513a02ff71.MainActivity
+soloricle_app.MainActivity;crc64e02080513a02ff71.MainActivity
+Soloricle_App.MainApplication, Soloricle.App;crc64e02080513a02ff71.MainApplication
+Soloricle_App.MainApplication;crc64e02080513a02ff71.MainApplication
+soloricle_app.MainApplication;crc64e02080513a02ff71.MainApplication
 GoogleGson.IExclusionStrategy, GoogleGson;com.google.gson.ExclusionStrategy
 GoogleGson.IExclusionStrategy;com.google.gson.ExclusionStrategy
 com.google.gson.ExclusionStrategy;com.google.gson.ExclusionStrategy

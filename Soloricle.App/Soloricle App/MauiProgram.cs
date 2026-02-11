@@ -1,4 +1,6 @@
 ﻿using Microsoft.Extensions.Logging;
+using Soloricle_App.Services;
+
 
 namespace Soloricle_App
 {
@@ -6,6 +8,11 @@ namespace Soloricle_App
     {
         public static MauiApp CreateMauiApp()
         {
+
+
+
+
+
             var builder = MauiApp.CreateBuilder();
             builder
                 .UseMauiApp<App>()
@@ -15,8 +22,35 @@ namespace Soloricle_App
                     fonts.AddFont("OpenSans-Semibold.ttf", "OpenSansSemibold");
                 });
 
+
+
+
+
+
+            builder.Services.AddSingleton(sp =>
+            {
+                // CHANGE THIS depending on target (Windows vs Android emulator)
+                var baseUrl = "var baseUrl = \"https://10.0.2.2:7161/\";\r\n";
+
+                return new HttpClient
+                {
+                    BaseAddress = new Uri(baseUrl)
+                };
+            });
+
+            builder.Services.AddSingleton<JournalApiClient>();
+
+
+
+            builder.Services.AddSingleton<MainPage>();
+
+
+
+
+
+
 #if DEBUG
-    		builder.Logging.AddDebug();
+            builder.Logging.AddDebug();
 #endif
 
             return builder.Build();
