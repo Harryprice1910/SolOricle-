@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<ContentPage
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    x:Class="SolOricle.App.views.IssuesToIntegrationPage"
+    BackgroundColor="#FAF9F6"
+    Title="Integration">
+
+    <ScrollView>
+        <VerticalStackLayout
+            Padding="24"
+            Spacing="20">
+
+            <Label
+                Text="From Issues to Integration"
+                FontSize="26"
+                FontAttributes="Bold"
+                TextColor="#C9A23F"
+                HorizontalOptions="Center" />
+
+            <Label
+                Text="Reflect on your journey from awareness to understanding."
+                FontSize="16"
+                TextColor="#555555"
+                HorizontalTextAlignment="Center" />
+
+            <Frame
+                BackgroundColor="White"
+                BorderColor="#D9CFAF"
+                CornerRadius="16"
+                Padding="20">
+
+                <VerticalStackLayout Spacing="16">
+
+                    <Label
+                        Text="Issue"
+                        FontSize="20"
+                        FontAttributes="Bold"
+                        TextColor="#C9A23F" />
+
+                    <Label
+                        Text="Recognise the thoughts, emotions, or experiences that need attention."
+                        TextColor="#555555" />
+
+                    <Label
+                        Text="Process"
+                        FontSize="20"
+                        FontAttributes="Bold"
+                        TextColor="#C9A23F" />
+
+                    <Label
+                        Text="Explore what these experiences mean and how they influence you."
+                        TextColor="#555555" />
+
+                    <Label
+                        Text="Integration"
+                        FontSize="20"
+                        FontAttributes="Bold"
+                        TextColor="#C9A23F" />
+
+                    <Label
+                        Text="Bring your understanding into everyday awareness and action."
+                        TextColor="#555555" />
+
+                </VerticalStackLayout>
+            </Frame>
+
+            <Label
+                Text="Your Integration Reflection"
+                FontSize="18"
+                FontAttributes="Bold"
+                TextColor="#C9A23F" />
+
+            <Editor
+                Text="{Binding IntegrationText}"
+                Placeholder="What have you learned about yourself?"
+                HeightRequest="150"
+                BackgroundColor="White"
+                TextColor="#333333" />
+
+            <Button
+                Text="Complete Reflection"
+                Command="{Binding FinishCommand}"
+                BackgroundColor="#C9A23F"
+                TextColor="White"
+                CornerRadius="12"
+                HeightRequest="50" />
+
+        </VerticalStackLayout>
+    </ScrollView>
+
+</ContentPage>

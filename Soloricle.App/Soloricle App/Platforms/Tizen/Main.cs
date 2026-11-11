@@ -2,7 +2,7 @@ using Microsoft.Maui;
 using Microsoft.Maui.Hosting;
 using System;
 
-namespace Soloricle_App
+namespace SolOricle.App
 {
     internal class Program : MauiApplication
     {

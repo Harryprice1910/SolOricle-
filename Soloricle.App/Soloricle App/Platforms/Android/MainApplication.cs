@@ -1,7 +1,7 @@
 ﻿using Android.App;
 using Android.Runtime;
 
-namespace Soloricle_App
+namespace SolOricle.App
 {
     [Application]
     public class MainApplication : MauiApplication

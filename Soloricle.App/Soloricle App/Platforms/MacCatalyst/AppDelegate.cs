@@ -1,6 +1,6 @@
 ﻿using Foundation;
 
-namespace Soloricle_App
+namespace SolOricle.App
 {
     [Register("AppDelegate")]
     public class AppDelegate : MauiUIApplicationDelegate

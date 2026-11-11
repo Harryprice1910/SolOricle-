@@ -1,0 +1,21 @@
+<ContentPage
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    x:Class="SolOricle.App.views.LandingPage"
+    BackgroundColor="#0E0E11">
+
+    <VerticalStackLayout Padding="32" Spacing="24" VerticalOptions="Center">
+        <Label Text="Soloricle"
+               FontSize="42"
+               FontAttributes="Bold"
+               TextColor="#E6D7A3"
+               HorizontalOptions="Center"/>
+        <Label Text="Reflective intelligence for clarity and synthesis."
+               TextColor="#CFCFCF"
+               HorizontalTextAlignment="Center"/>
+        <Button Text="Begin"
+                Command="{Binding BeginCommand}"
+                BackgroundColor="#E6D7A3"
+                TextColor="#0E0E11"/>
+    </VerticalStackLayout>
+</ContentPage>

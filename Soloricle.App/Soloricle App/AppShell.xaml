@@ -1,15 +1,31 @@
-<?xml version="1.0" encoding="UTF-8" ?>
 <Shell
-    x:Class="Soloricle_App.AppShell"
     xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-    xmlns:local="clr-namespace:Soloricle_App"
-    Shell.FlyoutBehavior="Disabled"
-    Title="Soloricle_App">
+    xmlns:views="clr-namespace:SolOricle.App.views"
+    x:Class="SolOricle.App.AppShell">
 
     <ShellContent
-        Title="Home"
-        ContentTemplate="{DataTemplate local:MainPage}"
-        Route="MainPage" />
+        Route="landing"
+        ContentTemplate="{DataTemplate views:LandingPage}" />
+
+    <ShellContent
+        Route="auth"
+        ContentTemplate="{DataTemplate views:AuthPage}" />
+
+    <ShellContent
+        Route="ethics"
+        ContentTemplate="{DataTemplate views:EthicsPage}" />
+
+    <ShellContent
+        Route="example"
+        ContentTemplate="{DataTemplate views:ExamplePromptPage}" />
+
+    <ShellContent
+        Route="insight"
+        ContentTemplate="{DataTemplate views:InsightPage}" />
+
+    <ShellContent
+        Route="integration"
+        ContentTemplate="{DataTemplate views:IssuesToIntegrationPage}" />
 
 </Shell>

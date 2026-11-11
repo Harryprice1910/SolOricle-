@@ -1,4 +1,4 @@
-namespace Soloricle
+namespace SolOricle
 {
     public class WeatherForecast
     {

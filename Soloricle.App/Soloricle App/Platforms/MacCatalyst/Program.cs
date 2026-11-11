@@ -1,7 +1,7 @@
 ﻿using ObjCRuntime;
 using UIKit;
 
-namespace Soloricle_App
+namespace SolOricle.App
 {
     public class Program
     {

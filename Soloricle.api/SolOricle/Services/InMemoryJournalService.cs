@@ -1,5 +1,5 @@
-﻿using Soloricle.Core.Contracts;
-using Soloricle.Core.Models;
+﻿using SolOricle.Core.Contracts;
+using SolOricle.Core.Models;
 
 
 
@@ -34,7 +34,7 @@ using Soloricle.Core.Models;
 */
 
 
-namespace Soloricle.Api.services
+namespace SolOricle.Api.Services
 {
 
 

@@ -1,4 +1,4 @@
-﻿namespace Soloricle_App
+﻿namespace SolOricle.App
 {
     public partial class MainPage : ContentPage
     {

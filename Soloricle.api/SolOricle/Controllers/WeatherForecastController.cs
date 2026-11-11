@@ -1,6 +1,6 @@
 using Microsoft.AspNetCore.Mvc;
 
-namespace Soloricle.Controllers
+namespace SolOricle.Controllers
 {
     [ApiController]
     [Route("[controller]")]

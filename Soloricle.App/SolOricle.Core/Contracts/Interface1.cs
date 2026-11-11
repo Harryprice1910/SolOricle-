@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using Soloricle.Core.Models;
+using SolOricle.Core.Models;
 
 /*
     PURPOSE:
@@ -43,7 +43,7 @@ using Soloricle.Core.Models;
 
 
 
-namespace Soloricle.Core.Contracts
+namespace SolOricle.Core.Contracts
 {
     public interface IJournalService
     {

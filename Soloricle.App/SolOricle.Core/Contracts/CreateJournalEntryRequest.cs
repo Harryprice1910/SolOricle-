@@ -31,7 +31,7 @@ using System.Threading.Tasks;
     - This object is short-lived and safe to change as APIs evolve.
 */
 
-namespace Soloricle.Core.Contracts
+namespace SolOricle.Core.Contracts
 {
     public sealed class CreateJournalEntryRequest
     {

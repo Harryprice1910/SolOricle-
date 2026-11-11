@@ -1,8 +1,8 @@
 ﻿using Microsoft.AspNetCore.Mvc;
-using Soloricle.Core.Contracts;
-using Soloricle.Core.Models;
+using SolOricle.Core.Contracts;
+using SolOricle.Core.Models;
 
-namespace Soloricle.Api.Controllers;
+namespace SolOricle.Api.Controllers;
 
 [ApiController]
 [Route("api/journal")]

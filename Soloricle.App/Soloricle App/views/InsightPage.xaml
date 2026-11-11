@@ -1,0 +1,39 @@
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="SolOricle.App.views.InsightPage"
+             Title="Insight Page">
+
+    <VerticalStackLayout Padding="20" Spacing="20">
+        <Label Text="Your Insight:"
+               FontSize="18"
+               TextColor="#3A3526" />
+
+        <Frame BackgroundColor="#FFF3E0"
+               CornerRadius="12"
+               Padding="15"
+               HasShadow="True">
+            <Label Text="{Binding InsightText}"
+                   FontSize="14"
+                   TextColor="#3A3526"
+                   LineBreakMode="WordWrap"/>
+
+
+
+
+        </Frame>
+
+        <Button
+    x:Name="NextButton"
+    Text="Next"
+    FontSize="13"
+    FontAttributes="Bold"
+    TextColor="White"
+    BackgroundColor="#C9A23F"
+    CornerRadius="18"
+    HeightRequest="46"
+    WidthRequest="190"
+    HorizontalOptions="Center"
+    VerticalOptions="Start"
+    Clicked="NextButton_Clicked"/>
+    </VerticalStackLayout>
+</ContentPage>

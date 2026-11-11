@@ -29,7 +29,6 @@ project.nuget.cache
 ############################
 # MAUI / Xamarin / Android
 ############################
-**/android/
 **/obj/Debug/
 **/obj/Release/
 **/*.dex
@@ -39,7 +38,15 @@ project.nuget.cache
 **/res.zip
 **/classes.zip
 **/packaged_resources
-**/AndroidManifest.xml
+# NOTE: don't add "android/" or "AndroidManifest.xml" here - Windows ignores letter case,
+# so they'd also hide the real Platforms/Android source code. obj/ already covers the build copies.
+
+############################
+# Local databases (may contain personal journal data)
+############################
+*.db
+*.db-shm
+*.db-wal
 
 ############################
 # Logs

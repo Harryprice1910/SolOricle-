@@ -1,8 +1,8 @@
 ﻿using Microsoft.Extensions.Logging;
-using Soloricle_App.Services;
+using SolOricle.App.Services;
 
 
-namespace Soloricle_App
+namespace SolOricle.App
 {
     public static class MauiProgram
     {

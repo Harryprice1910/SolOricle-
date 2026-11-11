@@ -1,0 +1,12 @@
+05-11-26
+
+To DO : 
+1	Resolve the ContextMatch.cs Visual Studio error
+2	Verify the Core, API and App project references
+3	Get Azure SQL connection configured
+4	Establish the API-to-database connection
+5	Test database communication
+6	Return to implementing ContextRetrievalService
+
+
+1 - context match error

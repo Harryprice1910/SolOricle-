@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:vm="clr-namespace:SolOricle.App.ViewModels"
+             x:Class="SolOricle.App.views.ReflectionPage"
+             Title="Reflection Page">
+
+    <ContentPage.BindingContext>
+        <vm:ReflectionPageViewModel/>
+    </ContentPage.BindingContext>
+
+    <ScrollView>
+        <VerticalStackLayout Padding="20" Spacing="20">
+
+            <Label Text="Enter your reflection:" 
+                   FontSize="18"
+                   TextColor="#3A3526" />
+
+            <Editor Text="{Binding Prompt}"
+                    Placeholder="Write freely here..."
+                    AutoSize="TextChanges"
+                    HeightRequest="150"
+                    BackgroundColor="#F8F5F0"
+                    TextColor="#3A3526"
+                    Margin="0,0,0,10" />
+
+            <Button Text="Process Reflection"
+                    Command="{Binding ProcessPromptCommand}"
+                    BackgroundColor="#D4A373"
+                    TextColor="White"
+                    CornerRadius="8"
+                    HeightRequest="50" />
+
+        </VerticalStackLayout>
+    </ScrollView>
+</ContentPage>

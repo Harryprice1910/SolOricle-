@@ -1,5 +1,5 @@
-﻿using Soloricle.Core.Contracts;
-using Soloricle.Core.Models;
+﻿using SolOricle.Core.Contracts;
+using SolOricle.Core.Models;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -7,7 +7,7 @@ using System.Net.Http.Json;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Soloricle_App.Services
+namespace SolOricle.App.Services
 {
     public sealed class JournalApiClient
     {
